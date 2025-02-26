@@ -1,4 +1,4 @@
-from app import db
+from database import db
 
 class User(db.Model):
     #id (int), username (text), password (text) 
